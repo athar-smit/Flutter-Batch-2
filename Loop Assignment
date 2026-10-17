@@ -1,0 +1,98 @@
+Dart Loop Practice Questions
+1. Easy Level 🟢
+Beginner exercises
+1/10 completed
+
+[ ] 1. Print numbers from 1 to 10 using a for loop.
+[ ] 2. Print numbers from 10 to 1 in reverse order.
+[ ] 3. Print all even numbers from 1 to 20.
+[ ] 4. Print all odd numbers from 1 to 30.
+[ ] 5. Print the multiplication table of 5.
+[x] 6. Calculate the sum of numbers from 1 to 10.
+[ ] 7. Print the square of numbers from 1 to 10.
+[ ] 8. Print numbers from 1 to 50 that are divisible by 5.
+[ ] 9. Print the first 10 multiples of 3.
+[ ] 10. Count how many numbers are between 1 and 100 that are divisible by 7.
+
+2. Medium Level 🟡
+Intermediate exercises
+0/10 completed
+
+[ ] 11. Take a number and calculate its factorial using a loop.
+[ ] 12. Take a number and print its multiplication table.
+[ ] 13. Calculate the sum of all even numbers from 1 to 100.
+[ ] 14. Count the digits in a given integer.
+[ ] 15. Reverse a given integer using a loop.
+[ ] 16. Check whether a number is prime using a loop.
+[ ] 17. Print the Fibonacci series for the first 10 terms.
+[ ] 18. Calculate the sum of the digits of a number.
+[ ] 19. Print all numbers between 1 and 100 that are divisible by both 3 and 5.
+[ ] 20. Check whether a number is a palindrome using a loop.
+
+3. While Loop Practice 🔵
+1. Print numbers from 1 to 20 using a while loop.
+2. Print numbers from 20 to 1 using a while loop.
+3. Keep adding numbers starting from 1 until the sum reaches or exceeds 100.
+4. Print the multiplication table of 7 using a while loop.
+5. Take a number and count how many digits it contains using a while loop.
+6. Keep dividing a positive integer by 2 until it becomes 1 or less.
+7. Print all odd numbers between 1 and 50.
+8. Find the largest power of 2 that is less than or equal to a given number.
+4. Do-While Loop Practice 🟣
+1. Print numbers from 1 to 10 using a do-while loop.
+2. Print numbers from 10 to 1 in reverse order.
+3. Print the multiplication table of 4.
+4. Calculate the sum of numbers from 1 to 20.
+5. Print all numbers divisible by 3 between 1 and 30.
+6. Demonstrate that a do-while loop executes at least once, even when its condition is false.
+5. Nested Loop Practice 🔴
+1. Print this pattern:
+*
+**
+***
+****
+*****
+
+
+2. Print this pattern:
+1
+12
+123
+1234
+12345
+
+
+3. Print this pattern:
+*****
+****
+***
+**
+*
+
+
+4. Print a rectangle of stars with 4 rows and 6 columns.
+5. Print a multiplication table grid from 1 to 5.
+6. Print this number pattern:
+1
+22
+333
+4444
+55555
+
+
+6. Challenge Questions 🏆
+1. Find all prime numbers between 1 and 100.
+2. Find the sum of all digits in a number without converting it to a string.
+3. Check whether a number is an Armstrong number.
+4. Print the following pattern:
+    *
+   ***
+  *****
+ *******
+*********
+
+
+5. Find the GCD (greatest common divisor) of two numbers using a loop.
+6. Find the LCM (least common multiple) of two numbers using a loop.
+7. Print the Fibonacci series up to a given limit.
+8. Create a number-guessing game using a while loop.
