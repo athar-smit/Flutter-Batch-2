@@ -28,4 +28,38 @@ void main() {
 //   }
 
 //   print(product);
+
+  List students = ["athar", "ahmed", "arsalan"];
+
+  print(students);
+
+  //   for (var i = 0; i < students.length; i++) {
+  //     print(students[i]);
+  //   }
+
+  for (String student in students) {
+    final name = student.substring(0, 2);
+    print(name);
+    // student = student[0].toUpperCase() + student.toString().substring(1);
+    // print(student);
+  }
+
+  //Question no 2
+  // for (var i = 10; i > 0; i--) {
+  //   print(i);
+  // }
+  //Question no 3
+  //   for (var i = 0; i <= 20; i++) {
+  //     if (i % 2 == 0) {
+  //       print(i);
+  //     }
+  //   }
+  //   //Question no 9
+  //   int count = 0;
+  //   for (var i = 1; count <= 3; i++) {
+  //     if (i % 3 == 0) {
+  //       print(i);
+  //       count++;
+  //     }
+  //   }
 }
