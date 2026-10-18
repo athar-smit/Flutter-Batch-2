@@ -1,98 +1,102 @@
-Dart Loop Practice Questions
-1. Easy Level 🟢
-Beginner exercises
-1/10 completed
+Dart Loop Practice Questions 🧑‍💻
+Here are 40 Dart practice questions covering for, for-in, while, and do-while loops, from basic to challenging. Try solving them yourself.
+1. for loop — 10 Questions
+1. Print numbers from 1 to 10.
+2. Print numbers from 20 to 1 in reverse order.
+3. Print all even numbers from 1 to 50.
+4. Print all odd numbers from 1 to 50.
+5. Print the multiplication table of 7.
+6. Calculate the sum of numbers from 1 to 100.
+7. Calculate the factorial of a number, such as 5.
+8. Print the squares of numbers from 1 to 10.
+9. Count how many numbers between 1 and 100 are divisible by 5.
+10. Print this pattern:
+*
+**
+***
+****
+*****
 
-[ ] 1. Print numbers from 1 to 10 using a for loop.
-[ ] 2. Print numbers from 10 to 1 in reverse order.
-[ ] 3. Print all even numbers from 1 to 20.
-[ ] 4. Print all odd numbers from 1 to 30.
-[ ] 5. Print the multiplication table of 5.
-[x] 6. Calculate the sum of numbers from 1 to 10.
-[ ] 7. Print the square of numbers from 1 to 10.
-[ ] 8. Print numbers from 1 to 50 that are divisible by 5.
-[ ] 9. Print the first 10 multiples of 3.
-[ ] 10. Count how many numbers are between 1 and 100 that are divisible by 7.
 
-2. Medium Level 🟡
-Intermediate exercises
-0/10 completed
+2. for-in loop — 10 Questions
+Use a list and a for-in loop to solve these questions.
+1. Print every element of a list of numbers.
+2. Print every name from a list of five names.
+3. Calculate the sum of all numbers in a list.
+4. Find the largest number in a list.
+5. Find the smallest number in a list.
+6. Count how many even numbers are in a list.
+7. Print only the names that contain more than five characters.
+8. Calculate the sum of all odd numbers in a list.
+9. Count how many numbers are greater than 10.
+10. Print each fruit from a list with the message "I like [fruit]".
+Example list:
+List<int> numbers = [10, 25, 8, 14, 31, 6];
 
-[ ] 11. Take a number and calculate its factorial using a loop.
-[ ] 12. Take a number and print its multiplication table.
-[ ] 13. Calculate the sum of all even numbers from 1 to 100.
-[ ] 14. Count the digits in a given integer.
-[ ] 15. Reverse a given integer using a loop.
-[ ] 16. Check whether a number is prime using a loop.
-[ ] 17. Print the Fibonacci series for the first 10 terms.
-[ ] 18. Calculate the sum of the digits of a number.
-[ ] 19. Print all numbers between 1 and 100 that are divisible by both 3 and 5.
-[ ] 20. Check whether a number is a palindrome using a loop.
 
-3. While Loop Practice 🔵
-1. Print numbers from 1 to 20 using a while loop.
-2. Print numbers from 20 to 1 using a while loop.
-3. Keep adding numbers starting from 1 until the sum reaches or exceeds 100.
-4. Print the multiplication table of 7 using a while loop.
-5. Take a number and count how many digits it contains using a while loop.
-6. Keep dividing a positive integer by 2 until it becomes 1 or less.
-7. Print all odd numbers between 1 and 50.
-8. Find the largest power of 2 that is less than or equal to a given number.
-4. Do-While Loop Practice 🟣
-1. Print numbers from 1 to 10 using a do-while loop.
+3. while loop — 10 Questions
+1. Print numbers from 1 to 20.
+2. Print numbers from 50 to 1 in reverse order.
+3. Print all even numbers from 2 to 30.
+4. Calculate the sum of numbers from 1 to 50.
+5. Print the multiplication table of a number stored in a variable.
+6. Count the digits in a number. Example: 12345 has 5 digits.
+7. Reverse a number. Example: 1234 becomes 4321.
+8. Calculate the sum of the digits of a number. Example: 456 gives 15.
+9. Check whether a number is a palindrome. Example: 121.
+10. Keep printing numbers starting from 1 until the number reaches 100.
+4. do-while loop — 10 Questions
+1. Print numbers from 1 to 10.
 2. Print numbers from 10 to 1 in reverse order.
-3. Print the multiplication table of 4.
-4. Calculate the sum of numbers from 1 to 20.
-5. Print all numbers divisible by 3 between 1 and 30.
-6. Demonstrate that a do-while loop executes at least once, even when its condition is false.
-5. Nested Loop Practice 🔴
-1. Print this pattern:
-*
-**
-***
-****
-*****
+3. Print all odd numbers from 1 to 25.
+4. Print the multiplication table of 3.
+5. Calculate the sum of numbers from 1 to 20.
+6. Print "Welcome to Dart" five times.
+7. Ask the user to enter a number and continue until they enter 0.
+8. Keep adding entered numbers until the total becomes greater than 100.
+9. Print numbers from 1 to n, where n is stored in a variable.
+10. Demonstrate that a do-while loop executes at least once, even when its condition is initially false.
+
+Bonus: Understand the difference
+Loop	Best practice
+for	When you know the number of repetitions
+for-in	When you want to access each item in a collection
+while	When repetition depends on a condition
+do-while	When the code must execute at least once
 
 
-2. Print this pattern:
-1
-12
-123
-1234
-12345
+
+Example syntax
+1. for
+for (int i = 1; i <= 5; i++) {
+  print(i);
+}
 
 
-3. Print this pattern:
-*****
-****
-***
-**
-*
+
+2. for-in
+List<int> nums = [10, 20, 30];
+
+for (int n in nums) {
+  print(n);
+}
 
 
-4. Print a rectangle of stars with 4 rows and 6 columns.
-5. Print a multiplication table grid from 1 to 5.
-6. Print this number pattern:
-1
-22
-333
-4444
-55555
+
+3. while
+int i = 1;
+
+while (i <= 5) {
+  print(i);
+  i++;
+}
 
 
-6. Challenge Questions 🏆
-1. Find all prime numbers between 1 and 100.
-2. Find the sum of all digits in a number without converting it to a string.
-3. Check whether a number is an Armstrong number.
-4. Print the following pattern:
-    *
-   ***
-  *****
- *******
-*********
 
+4. do-while
+int i = 1;
 
-5. Find the GCD (greatest common divisor) of two numbers using a loop.
-6. Find the LCM (least common multiple) of two numbers using a loop.
-7. Print the Fibonacci series up to a given limit.
-8. Create a number-guessing game using a while loop.
+do {
+  print(i);
+  i++;
+} while (i <= 5);
