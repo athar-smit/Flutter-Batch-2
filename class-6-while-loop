@@ -1,0 +1,75 @@
+import 'dart:io';
+
+void main() {
+  //for //When you need number for iteration like index
+  // for in //We run loop any kind of List
+  // while when we run loop based condition or complex condition
+  // do while same like while but we need execute program at least once
+
+  print("Enter your name");
+
+  String? name;
+  while(name == null || name.isEmpty || name.length < 3){
+    name = stdin.readLineSync();
+    if(name!=null || name!.isNotEmpty){
+      print("Please enter correct name");
+    }
+  }
+  
+
+  num? input;
+  do {
+    print("Guess a number");
+    String i = stdin.readLineSync() ?? '';
+    input = num.tryParse(i);
+  } while(input != 5);
+
+  print("You guessed a correct number");
+
+
+  int count= 50;
+
+  while(false){
+    print(count);
+     count--;
+  }
+
+
+  List students = ["Ahemd", "Ali", "Faraz"];
+
+  int number = 5;
+
+  for (var i = 0; i < students.length; i++) {
+    print("${students[i]} is present in the class");
+  }
+
+  Map product = {
+    "productA": {"name": "Apple"},
+    "productB": {"name": "Samsung"},
+    "productC": {"name": "Realme"},
+  };
+
+  List<Map<String, dynamic>> productList = [
+    {"name": "Apple"},
+    {"name": "Samsung"},
+    {"name": "Realme"},
+  ];
+
+  for (var product in productList) {
+    // if(product['name'] == "Samsung"){
+      // product['name'] = "Samsung 2";
+      product['price'] = 20000;
+    // }
+  }
+
+  print(productList);
+
+  // for (var athar in product.entries) {
+  //   print(athar.key);
+  //   print(athar.value['name']);
+  // }
+
+  // for (var student in students) {
+  //   print("$student is present in the class");
+  // }
+}
