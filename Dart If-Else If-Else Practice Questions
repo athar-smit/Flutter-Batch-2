@@ -1,0 +1,59 @@
+Dart If-Else If-Else Practice Questions
+🟢 Level 1: Basic Questions
+1. Positive, Negative, or Zero: Write a program that checks whether a number is positive, negative, or zero.
+2. Even or Odd: Write a program that checks whether a number is even or odd. If the number is zero, print "Zero".
+3. Find the Greatest Number: Take two numbers and print which number is greater. If both numbers are equal, print "Both are equal".
+4. Voting Eligibility: Take a person's age. If the age is 18 or above, print "Eligible to vote". Otherwise, print "Not eligible to vote".
+5. Temperature Checker: Take a temperature and print:
+   - Above 35: "Hot"
+   - Above 25: "Warm"
+   - Above 15: "Cool"
+   - Otherwise: "Cold"
+🟡 Level 2: Marks and Grades
+6. Student Grades: Take marks out of 100 and print the grade:
+   - 90–100: A+
+   - 80–89: A
+   - 70–79: B
+   - 60–69: C
+   - 50–59: D
+   - Below 50: Fail
+7. Pass or Fail: Take marks out of 100. Print "Pass" if marks are 40 or above, "Fail" if below 40, and "Invalid marks" if marks are less than 0 or greater than 100.
+8. Scholarship Eligibility: Take a student's percentage:
+   - 90 or above: "Full Scholarship"
+   - 80 or above: "Half Scholarship"
+   - 70 or above: "Quarter Scholarship"
+   - Otherwise: "No Scholarship"
+9. Attendance Checker: Take attendance percentage:
+   - 90 or above: "Excellent Attendance"
+   - 75 or above: "Eligible"
+   - Below 75: "Not Eligible"
+10. Exam Performance: Take marks and print "Excellent", "Very Good", "Good", "Needs Improvement", or "Failed" based on your own suitable marks ranges.
+🟠 Level 3: Numbers and Operators
+11. Greatest of Three Numbers: Take three numbers and print the greatest number. Also handle the case where all three numbers are equal.
+12. Divisibility Checker: Take an integer and check whether it is divisible by 2, divisible by 3, divisible by both, or neither.
+13. Simple Calculator: Take two numbers and an operator (+, -, *, /). Use if-else if-else to perform the correct operation. Handle division by zero.
+14. Number Range: Take a number and print:
+- 1–10: "Small"
+- 11–50: "Medium"
+- 51–100: "Large"
+- Otherwise: "Out of range"
+15. Leap Year: Take a year and determine whether it is a leap year or not.
+🔵 Level 4: Real-Life Scenarios
+16. Electricity Bill: Calculate the bill based on units consumed:
+- Up to 100 units: Rs. 10 per unit
+- 101–200 units: Rs. 15 per unit
+- Above 200 units: Rs. 20 per unit
+For this exercise, apply the rate to all units consumed in the selected category.
+
+17. Ticket Pricing: Take a person's age:
+- Below 5: Free ticket
+- 5–12: Rs. 200
+- 13–59: Rs. 500
+- 60 and above: Rs. 300
+18. Login System: Store a correct username and password in variables. Ask the user for their username and password, then print "Login Successful", "Incorrect Username", or "Incorrect Password".
+19. BMI Category: Take BMI as input and print:
+- Below 18.5: "Underweight"
+- 18.5–24.9: "Normal"
+- 25–29.9: "Overweight"
+- 30 or above: "Obesity"
+20. Day Checker: Take a number from 1 to 7 and print the corresponding day of the week. If the number is outside this range, print "Invalid Day".
