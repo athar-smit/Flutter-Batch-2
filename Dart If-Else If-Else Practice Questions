@@ -57,3 +57,18 @@ For this exercise, apply the rate to all units consumed in the selected category
 - 25–29.9: "Overweight"
 - 30 or above: "Obesity"
 20. Day Checker: Take a number from 1 to 7 and print the corresponding day of the week. If the number is outside this range, print "Invalid Day".
+
+//Expamle Code
+void main() {
+  int marks = 75;
+
+  if (marks >= 90) {
+    print("A+ Grade");
+  } else if (marks >= 80) {
+    print("A Grade");
+  } else if (marks >= 70) {
+    print("B Grade");
+  } else {
+    print("Needs Improvement");
+  }
+}
