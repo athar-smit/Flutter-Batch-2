@@ -1,0 +1,64 @@
+import 'calculator.dart';
+import 'person.dart';
+
+//(parameter)
+//({named parameter})
+num sum({required num a, required num b, num? c}) {
+  num ans = a + b;
+  if (c != null) {
+    ans = ans + c;
+  }
+  return ans;
+}
+
+void main() {
+  //Classes And Functions
+  num ans = sum(a: 15, b: 20, c: 50);
+  print("Ans is $ans");
+
+  Calculator calculator = Calculator();
+
+  calculator.add(10, 25);
+
+  add(num a, num b) {
+    num ans = a + b;
+    print(ans);
+  }
+
+  var ahmedDetail = PersonDetail(
+    name: "Ahmed",
+    id: "1",
+    city: "Karachi",
+    isAlive: true,
+  );
+  PersonDetail person2 = PersonDetail(
+    name: "Ather",
+    id: "2",
+    city: "Lahore",
+    isAlive: false,
+  );
+
+  person2.printAll();
+}
+
+
+class PersonDetail {
+  String name;
+  String id;
+  String city;
+  bool isAlive;
+
+  PersonDetail({
+    required this.name,
+    required this.city,
+    required this.id,
+    required this.isAlive,
+  });
+
+  printAll() {
+    print("Name is " + name);
+    print("ID is " + id);
+    print("City is " + city);
+  }
+}
+
