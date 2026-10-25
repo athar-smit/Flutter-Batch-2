@@ -1,0 +1,50 @@
+import 'dart:io';
+
+void main() {
+  double percentage = 95;
+  String city = "Karachi";
+
+  // Divisibility Checker: Take an integer and check whether it is divisible by 2, divisible by 3, divisible by both, or neither.
+
+  int num = 3;
+
+  //&& and
+  //|| or
+
+  String userEmail = stdin.readLineSync() ?? "";
+
+  if (num % 3 == 0 && num % 2 == 0) {
+    print("divisible by both");
+  } else if (num % 3 == 0) {
+    print("divisible by 3");
+  } else if (num % 2 == 0) {
+    print("divisible by 2");
+  } else {
+    print("Not divisible");
+  }
+
+  if (percentage >= 90) {
+    print("Full Scholarship");
+    if (city == "Karachi") {
+      print("50% Scholarship");
+    } else {
+      print("30% Scholarship");
+    }
+  } else if (percentage >= 80) {
+    print("Half Scholarship");
+    if (city == "Karachi") {
+      print("25% Scholarship");
+    } else {
+      print("15% Scholarship");
+    }
+  } else if (percentage >= 70) {
+    print("Quarter Scholarship");
+    if (city == "Karachi") {
+      print("7% Scholarship");
+    } else {
+      print("3% Scholarship");
+    }
+  } else {
+    print("No Scholarship");
+  }
+}
