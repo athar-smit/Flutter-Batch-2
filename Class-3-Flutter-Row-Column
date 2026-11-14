@@ -1,0 +1,36 @@
+import 'package:material_ui/material_ui.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          spacing: 10,
+          children: [
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              spacing: 10,
+              children: [
+                Container(height: 100, width: 100, color: Colors.blue),
+                Container(height: 100, width: 100, color: Colors.red),
+                Container(height: 100, width: 100, color: Colors.green),
+              ],
+            ),
+            Container(height: 100, width: 100, color: Colors.blue),
+            Container(height: 100, width: 100, color: Colors.red),
+            Container(height: 100, width: 100, color: Colors.green),
+          ],
+        ),
+      ),
+    );
+  }
+}
